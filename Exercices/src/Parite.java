@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class Parite {
     public static void main(String[] args){
         Scanner scanne =new Scanner(System.in);
+
+        //Entrées de données
         System.out.print("Entrer le nombre a tester: ");
         float a = scanne.nextFloat();
 
@@ -14,5 +16,6 @@ public class Parite {
         else {
             System.out.print(a + " est impair");
         }
+        scanne.close();
     }
 }

@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class Mois {
     public static void main(String[] args){
         Scanner scanne =new Scanner(System.in);
+
+        //Entrée de données
         System.out.print("Entrer le chiffre: ");
         int a = scanne.nextInt();
 
@@ -27,6 +29,7 @@ public class Mois {
         else {
             System.out.print("Il n'y a que 12 mois dans l'année");
         }
+        scanne.close();
 
     }
 }

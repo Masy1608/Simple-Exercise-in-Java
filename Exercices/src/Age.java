@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class Age {
     public static void main(String[] args){
         Scanner scanne =new Scanner(System.in);
+
+        //Saisie de l'age de l'utilisateur
         System.out.print("Entrer l'age de l'enfant: ");
         byte age = scanne.nextByte();
 
@@ -20,5 +22,7 @@ public class Age {
         else if (age<6){
             System.out.print("L'enfant est un bebe ");
         }
+
+        scanne.close();
     }
 }
